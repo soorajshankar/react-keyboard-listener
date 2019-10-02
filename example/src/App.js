@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import KeyListener from "react-keylistener";
+import KeyListener from "react-keyboard-listener";
 
 import img from "./assets/keyboard-listener.png";
 

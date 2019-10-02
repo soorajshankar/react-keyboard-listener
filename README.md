@@ -15,21 +15,24 @@ npm install --save react-keyboard-listener
 ```jsx
 import React, { Component } from "react";
 
-import MyComponent from "react-keyboard-listener";
+import KeyboardListener from "react-keyboard-listener";
 
-class Keyboard-Listener extends Component {
+class MyComponent extends Component {
   onkeyDown = keyEvent => console.log(keyEvent);
   render() {
     return (
-      <Keyboard-Listener onKeyDown={this.onKeyDown}>
+      <KeyboardListener onKeyDown={this.onKeyDown}>
         <span>Add your components here.</span>
-      </Keyboard-Listener>
+      </KeyboardListener>
     );
   }
 }
 ```
 ## Example Project 
 https://github.com/soorajshankar/react-keyslistener/tree/master/example
+
+## Demo 
+https://soorajshankar.github.io/react-keyboard-listener/
 
 ## License
 
