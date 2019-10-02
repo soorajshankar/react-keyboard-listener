@@ -38,7 +38,7 @@ export default class App extends Component {
             style={{ background: "#6c63ff", color: "white", margin: 20 }}
             onClick={() =>
               this.setState(({ visible }) => {
-                return { visible: !visible };
+                return { visible: !visible, lastKey: null };
               })
             }
           >
