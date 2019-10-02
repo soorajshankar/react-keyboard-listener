@@ -1,6 +1,6 @@
 {
   "name": "react-keyboard-listener",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Keyboard event listener component for react js applications.",
   "author": "Sooraj",
   "license": "MIT",
