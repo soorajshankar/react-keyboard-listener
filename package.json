@@ -1,8 +1,8 @@
 {
-  "name": "react-keylistener",
-  "version": "1.0.0",
+  "name": "react-keyboard-listener",
+  "version": "1.0.1",
   "description": "Keyboard event listener component for react js applications.",
-  "author": "SoorajITC",
+  "author": "Sooraj",
   "license": "MIT",
   "repository": "https://github.com/soorajshankar/react-keyslistener.git",
   "main": "dist/index.js",

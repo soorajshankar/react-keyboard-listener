@@ -13,19 +13,22 @@ npm install --save react-keylistener
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
-import MyComponent from 'react-keylistener'
+import MyComponent from "react-keyboard-listener";
 
-class Example extends Component {
-  render () {
+class KeyListener extends Component {
+  keyDown = keyEvent => console.log(keyEvent);
+  render() {
     return (
-      <MyComponent />
-    )
+      <KeyListener onKeyDown={this.onKeyDown}>
+        <span>Add your components here.</span>
+      </KeyListener>
+    );
   }
 }
 ```
 
 ## License
 
-MIT © [SoorajITC](https://github.com/SoorajITC)
+MIT © [Sooraj Sanker](https://github.com/soorajshankar)
