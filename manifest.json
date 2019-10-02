@@ -1,6 +1,6 @@
 {
-  "short_name": "react-keylistener",
-  "name": "react-keylistener",
+  "short_name": "react-keyboard-listener",
+  "name": "react-keyboard-listener",
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",
