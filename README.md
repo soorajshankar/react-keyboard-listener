@@ -18,7 +18,7 @@ import React, { Component } from "react";
 import MyComponent from "react-keyboard-listener";
 
 class KeyListener extends Component {
-  keyDown = keyEvent => console.log(keyEvent);
+  onkeyDown = keyEvent => console.log(keyEvent);
   render() {
     return (
       <KeyListener onKeyDown={this.onKeyDown}>
@@ -28,6 +28,8 @@ class KeyListener extends Component {
   }
 }
 ```
+## Example Project 
+https://github.com/soorajshankar/react-keyslistener/tree/master/example
 
 ## License
 
