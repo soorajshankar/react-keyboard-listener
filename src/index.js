@@ -40,7 +40,7 @@ class KeyListener extends Component {
 
   render() {
     const { children = '' } = this.props
-    return <div><h1>Test</h1>{children}</div>
+    return <div>{children}</div>
   }
 }
 
